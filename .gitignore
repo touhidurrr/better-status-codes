@@ -1,0 +1,34 @@
+# dotfiles and test scripts
+.*
+test*
+
+# test
+!tests/
+
+# build
+/dist/
+
+#git
+!.gitignore
+
+# github
+!.github
+!.github/*/*
+
+# prettier
+!.prettierignore
+!.prettierrc.yaml
+
+# nodejs
+node_modules/
+package-lock.json
+
+# redis
+*.rdb
+.rediscli_history
+
+# yarn
+yarn.lock
+
+# bun
+bun.lockb
