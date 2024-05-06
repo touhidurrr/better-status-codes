@@ -1,17 +1,7 @@
 {
-  "include": ["src", "tests"],
   "compilerOptions": {
     // Enable latest features
     "lib": ["ESNext"],
-    "target": "ESNext",
-    "module": "ESNext",
-    "moduleDetection": "force",
-
-    // Bundler mode
-    "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
-    "verbatimModuleSyntax": true,
-    "noEmit": true,
 
     // Best practices
     "strict": true,
@@ -21,6 +11,12 @@
     // Some stricter flags (disabled by default)
     "noUnusedLocals": false,
     "noUnusedParameters": false,
-    "noPropertyAccessFromIndexSignature": false
+    "noPropertyAccessFromIndexSignature": false,
+
+    // Others
+    "outDir": "dist",
+    "target": "ESNext",
+    "esModuleInterop": true,
+    "moduleResolution": "Bundler"
   }
 }

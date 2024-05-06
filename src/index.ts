@@ -2,13 +2,14 @@ import { StatusCodes } from "./codes";
 import { StatusTexts } from "./texts";
 
 // aliases of StatusCodes
-export const Status = StatusCodes;
-export const Code = StatusCodes;
+export { StatusCodes as Status, StatusCodes as Code };
 
 // aliases of StatusTexts
-export const Text = StatusTexts;
-export const Reason = StatusTexts;
-export const Message = StatusTexts;
-export const StatusText = StatusTexts;
-export const StatusMessage = StatusTexts;
-export const ReasonPhrase = StatusTexts;
+export {
+  StatusTexts as Text,
+  StatusTexts as Reason,
+  StatusTexts as Message,
+  StatusTexts as StatusText,
+  StatusTexts as StatusMessage,
+  StatusTexts as ReasonPhrase,
+};
