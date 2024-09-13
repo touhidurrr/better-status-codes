@@ -5,7 +5,7 @@ Zero dependencies, lightweight, and easy to use.
 Use the coding style of your choice!
 Typescript support out of the box!
 
-Also supports status code of poplar frameworks / services like AWS, Cloudflare etc.
+Also supports status code of popular frameworks or services like AWS, Cloudflare, etc.
 
 ![TS Example](https://s12.gifyu.com/images/SZoEa.png)
 
