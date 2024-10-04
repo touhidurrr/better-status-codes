@@ -1,0 +1,5 @@
+src/
+tests/
+*.*
+!package.json
+!README.md

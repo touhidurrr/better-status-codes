@@ -32,3 +32,6 @@ yarn.lock
 
 # bun
 bun.lockb
+
+# npm
+!.npmignore
