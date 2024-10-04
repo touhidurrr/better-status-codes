@@ -1,5 +1,6 @@
 src/
 tests/
-*.*
-!package.json
-!README.md
+scripts/
+test*
+tsconfig*
+bun.lockb
