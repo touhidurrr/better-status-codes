@@ -1,7 +1,7 @@
 import { describe, expect, test } from "bun:test";
 import { STATUS_CODES } from "node:http";
 import { Status, StatusText } from "../src";
-import statuses, { message } from "statuses";
+import statuses from "statuses";
 import { StatusCodes, ReasonPhrases } from "http-status-codes";
 
 function toScreamingSnakeCase(str: string) {
