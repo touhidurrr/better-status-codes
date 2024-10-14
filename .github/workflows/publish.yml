@@ -29,6 +29,6 @@ jobs:
         run: bun run build
 
       - name: Publish
-        run: npm publish --provinence
+        run: npm publish --provenance
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
