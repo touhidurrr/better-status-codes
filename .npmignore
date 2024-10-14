@@ -1,6 +1,9 @@
 src/
 tests/
 scripts/
+.github/
+
+*.tgz
 test*
 tsconfig*
 bun.lockb

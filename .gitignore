@@ -1,5 +1,6 @@
 # dotfiles and test scripts
 .*
+*.tgz
 test*
 
 # test

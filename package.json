@@ -1,7 +1,7 @@
 {
   "name": "better-status-codes",
   "description": "A much better way to handle HTTP status codes in your applications. Zero dependencies, batteries included.",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "license": "BSD-3-Clause",
   "author": "Md. Touhidur Rahman",
   "main": "dist/index.js",
@@ -17,6 +17,7 @@
   },
   "scripts": {
     "lint": "tsc --noEmit",
+    "lint:format": "prettier --check .",
     "format": "prettier --write .",
     "build:esm": "tsc -p tsconfig.esm.json",
     "build:cjs": "tsc -p tsconfig.cjs.json",
