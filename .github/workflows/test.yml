@@ -24,5 +24,8 @@ jobs:
       - name: Check Formatting
         run: bun lint:format
 
+      - name: Test
+        run: bun test
+
       - name: Build
         run: bun run build
