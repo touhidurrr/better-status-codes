@@ -23,11 +23,8 @@ jobs:
           check-latest: true
           registry-url: "https://registry.npmjs.org"
 
-      - name: Update NPM
-        run: npm install -g npm@latest
-
       - name: Install dependencies
-        run: npm install
+        run: bun install --frozen-lockfile
 
       - name: Build
         run: bun run build
