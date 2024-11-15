@@ -3,6 +3,8 @@ tests/
 scripts/
 .github/
 
+.*
+*.md
 *.tgz
 test*
 tsconfig*
