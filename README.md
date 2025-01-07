@@ -43,6 +43,12 @@ import { Code } from "better-status-codes";
 console.log(Code.OK); // 200
 ```
 
+
+Or use CommonJS modules!
+```ts
+const { Status } = require("better-status-codes");
+```
+
 ### Status Text
 
 ```ts
