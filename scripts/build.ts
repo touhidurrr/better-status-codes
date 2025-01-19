@@ -1,9 +1,10 @@
 import { Glob, spawn, spawnSync } from "bun";
-import { rename } from "node:fs/promises";
+import { rename, rmdir } from "node:fs/promises";
 
 const glob = new Glob("dist/*.js");
 
 (async () => {
+  await rmdir("dist", { recursive: true });
   spawnSync(["bun", "build:esm"]);
 
   const renameTasks = [];
@@ -15,4 +16,5 @@ const glob = new Glob("dist/*.js");
 
   spawn(["bun", "build:cjs"]);
   spawn(["bun", "build:dts"]);
+  spawn(["bun", "build:browser"]);
 })();

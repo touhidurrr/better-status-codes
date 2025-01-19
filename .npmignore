@@ -3,6 +3,8 @@ tests/
 scripts/
 .github/
 
+dist/browser*
+
 .*
 *.md
 *.tgz
