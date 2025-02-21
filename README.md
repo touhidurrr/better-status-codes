@@ -1,4 +1,4 @@
-# better-status-codes
+# better-status-codes ![NPM Downloads](https://img.shields.io/npm/dm/better-status-codes)
 
 A much better way to handle HTTP status codes in your applications.
 Zero dependencies, lightweight, and easy to use.
