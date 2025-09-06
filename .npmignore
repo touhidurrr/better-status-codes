@@ -8,6 +8,6 @@ dist/browser*
 .*
 *.md
 *.tgz
+*.lock
 test*
 tsconfig*
-bun.lockb
