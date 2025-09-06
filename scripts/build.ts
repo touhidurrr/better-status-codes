@@ -4,7 +4,7 @@ import { rename, rmdir } from "node:fs/promises";
 const glob = new Glob("dist/*.js");
 
 (async () => {
-  await rmdir("dist", { recursive: true });
+  await rmdir("dist", { recursive: true, force: true });
   spawnSync(["bun", "build:esm"]);
 
   const renameTasks = [];
