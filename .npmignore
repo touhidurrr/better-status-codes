@@ -10,4 +10,5 @@ dist/browser*
 *.tgz
 *.lock
 test*
+bunfig*
 tsconfig*
