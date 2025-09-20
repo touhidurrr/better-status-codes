@@ -1,7 +1,7 @@
 {
   "name": "better-status-codes",
   "description": "A much better way to handle HTTP status codes in your applications. Zero dependencies, batteries included.",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "license": "BSD-3-Clause",
   "author": "Md. Touhidur Rahman",
   "main": "dist/index.js",
@@ -22,13 +22,12 @@
     "build:esm": "tsc -p tsconfig.esm.json",
     "build:cjs": "tsc -p tsconfig.cjs.json",
     "build:dts": "tsc -p tsconfig.dts.json",
-    "build:browser": "esbuild src/index.ts --bundle --minify --sourcemap --target=es6 --outfile=dist/browser.js",
+    "build:browser": "bun scripts/browser.ts",
     "build": "bun scripts/build.ts"
   },
   "devDependencies": {
-    "@types/bun": "^1.2.21",
+    "@types/bun": "^1.2.22",
     "@types/statuses": "^2.0.6",
-    "esbuild": "^0.25.9",
     "http-status-codes": "^2.3.0",
     "prettier": "^3.6.2",
     "statuses": "^2.0.2",
