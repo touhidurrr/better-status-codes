@@ -3,3 +3,4 @@ bun = true
 
 [test]
 coverage = true
+concurrentTestGlob = "tests/**"
