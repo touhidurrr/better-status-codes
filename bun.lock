@@ -4,12 +4,12 @@
     "": {
       "name": "better-status-codes",
       "devDependencies": {
-        "@types/bun": "latest",
-        "@types/statuses": "latest",
-        "http-status-codes": "latest",
-        "prettier": "latest",
-        "statuses": "latest",
-        "typescript": "latest",
+        "@types/bun": "^1.2.23",
+        "@types/statuses": "^2.0.6",
+        "http-status-codes": "^2.3.0",
+        "prettier": "^3.6.2",
+        "statuses": "^2.0.2",
+        "typescript": "^5.9.2",
       },
     },
   },
@@ -32,7 +32,7 @@
 
     "statuses": ["statuses@2.0.2", "", {}, "sha512-DvEy55V3DB7uknRo+4iOGT5fP1slR8wQohVdknigZPMpMstaKJQWhwiYBACJE3Ul2pTnATihhBYnRhZQHGBiRw=="],
 
-    "typescript": ["typescript@5.9.2", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-CWBzXQrc/qOkhidw1OzBTQuYRbfyxDXJMVJ1XNwUHGROVmuaeiEm3OslpZ1RV96d7SKKjZKrSJu3+t/xlw3R9A=="],
+    "typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
 
     "undici-types": ["undici-types@7.10.0", "", {}, "sha512-t5Fy/nfn+14LuOc2KNYg75vZqClpAiqscVvMygNnlsHBFpSXdJaYtXMcdNLpl/Qvc3P2cB3s6lOV51nqsFq4ag=="],
   }
