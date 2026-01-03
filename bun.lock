@@ -5,12 +5,12 @@
     "": {
       "name": "better-status-codes",
       "devDependencies": {
-        "@types/bun": "^1.2.23",
-        "@types/statuses": "^2.0.6",
-        "http-status-codes": "^2.3.0",
-        "prettier": "^3.6.2",
-        "statuses": "^2.0.2",
-        "typescript": "^5.9.3",
+        "@types/bun": "latest",
+        "@types/statuses": "latest",
+        "http-status-codes": "latest",
+        "prettier": "latest",
+        "statuses": "latest",
+        "typescript": "latest",
       },
     },
   },
