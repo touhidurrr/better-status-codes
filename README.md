@@ -7,7 +7,7 @@ Typescript support out of the box!
 
 Also supports status code of popular frameworks or services like AWS, Cloudflare, etc.
 
-![TS Example](https://s12.gifyu.com/images/SZoEa.png)
+<img width="699" height="395" alt="image" src="https://github.com/user-attachments/assets/462c3113-9548-4c27-a286-d689d4ff0fe8" />
 
 ## Installation
 
