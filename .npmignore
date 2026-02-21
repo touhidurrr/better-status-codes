@@ -12,3 +12,4 @@ dist/browser*
 test*
 bunfig*
 tsconfig*
+eslint.config.*
