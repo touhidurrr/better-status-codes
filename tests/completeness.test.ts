@@ -53,10 +53,10 @@ describe("StatusText", () => {
   });
 
   test("http-status-codes", () => {
-    //@ts-ignore https://datatracker.ietf.org/doc/html/rfc7168
+    //@ts-expect-error https://datatracker.ietf.org/doc/html/rfc7168
     ReasonPhrases.IM_A_TEAPOT = "I'm a Teapot";
     // The hyphen is missing in this library, maybe a typo?
-    //@ts-ignore https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/203
+    //@ts-expect-error https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/203
     ReasonPhrases.NON_AUTHORITATIVE_INFORMATION =
       "Non-Authoritative Information";
 
