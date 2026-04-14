@@ -3,7 +3,9 @@
   "compilerOptions": {
     "target": "ES5",
     "module": "CommonJS",
-    "moduleResolution": "Classic"
+    "moduleResolution": "Classic",
+    "rootDir": "./src",
+    "ignoreDeprecations": "6.0"
   },
   "include": ["src"]
 }

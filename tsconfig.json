@@ -1,10 +1,13 @@
 {
+  "include": ["src", "scripts", "tests"],
   "compilerOptions": {
     // Enable latest features
     "lib": ["ESNext"],
 
+    // types
+    "types": ["bun", "statuses"],
+
     // Best practices
-    "strict": true,
     "skipLibCheck": true,
     "noFallthroughCasesInSwitch": true,
 
@@ -16,7 +19,6 @@
     // Others
     "outDir": "dist",
     "target": "ESNext",
-    "esModuleInterop": true,
     "moduleResolution": "Bundler"
   }
 }
