@@ -1,6 +1,16 @@
 [run]
 bun = true
 
+
+[install]
+minimumReleaseAge = "3 days"
+
 [test]
 coverage = true
 concurrentTestGlob = "tests/**"
+
+
+[fmt]
+jsdoc = true
+sortPackageJson = true
+ignorePatterns = ['CODE_OF_CONDUCT.md']
