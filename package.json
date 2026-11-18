@@ -21,7 +21,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "lint": "tsc --noEmit && eslint .",
-    "lint:format": "bun check",
+    "lint:format": "bun fmt --check",
     "format": "bun fmt",
     "build:esm": "tsc -p tsconfig.esm.json",
     "build:cjs": "tsc -p tsconfig.cjs.json",
