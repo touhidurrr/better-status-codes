@@ -1,24 +1,24 @@
 {
   "name": "better-status-codes",
-  "description": "A much better way to handle HTTP status codes in your applications. Zero dependencies, batteries included.",
   "version": "2.2.0",
+  "description": "A much better way to handle HTTP status codes in your applications. Zero dependencies, batteries included.",
+  "homepage": "https://github.com/touhidurrr/better-status-codes#readme",
+  "bugs": {
+    "url": "https://github.com/touhidurrr/better-status-codes/issues"
+  },
   "license": "BSD-3-Clause",
   "author": "Md. Touhidur Rahman",
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
-  "types": "dist/index.d.ts",
-  "homepage": "https://github.com/touhidurrr/better-status-codes#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/touhidurrr/better-status-codes.git"
-  },
-  "bugs": {
-    "url": "https://github.com/touhidurrr/better-status-codes/issues"
   },
   "funding": {
     "type": "buymeacoffee",
     "url": "https://www.buymeacoffee.com/touhidur"
   },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "scripts": {
     "lint": "tsc --noEmit && eslint .",
     "lint:format": "bun check",

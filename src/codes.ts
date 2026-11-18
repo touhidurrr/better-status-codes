@@ -146,33 +146,21 @@ export const StatusCodes = Object.freeze({
   PAYLOAD_TOO_LARGE: 413,
   "Content Too Large": 413,
   CONTENT_TOO_LARGE: 413,
-  /**
-   * @deprecated consider using `Content Too Large` instead
-   */
+  /** @deprecated consider using `Content Too Large` instead */
   "Request Too Long": 413,
-  /**
-   * @deprecated consider using `CONTENT_TOO_LARGE` instead
-   */
+  /** @deprecated consider using `CONTENT_TOO_LARGE` instead */
   REQUEST_TOO_LONG: 413,
-  /**
-   * @deprecated consider using `CONTENT_TOO_LARGE` instead
-   */
+  /** @deprecated consider using `CONTENT_TOO_LARGE` instead */
   "Request Entity Too Large": 413,
-  /**
-   * @deprecated consider using `CONTENT_TOO_LARGE` instead
-   */
+  /** @deprecated consider using `CONTENT_TOO_LARGE` instead */
   REQUEST_ENTITY_TOO_LARGE: 413,
 
   414: 414,
   "URI Too Long": 414,
   URI_TOO_LONG: 414,
-  /**
-   * @deprecated consider using `URI Too Long` instead
-   */
+  /** @deprecated consider using `URI Too Long` instead */
   "Request-URI Too Long": 414,
-  /**
-   * @deprecated consider using `URI_TOO_LONG` instead
-   */
+  /** @deprecated consider using `URI_TOO_LONG` instead */
   REQUEST_URI_TOO_LONG: 414,
 
   415: 415,
@@ -182,13 +170,9 @@ export const StatusCodes = Object.freeze({
   416: 416,
   "Range Not Satisfiable": 416,
   RANGE_NOT_SATISFIABLE: 416,
-  /**
-   * @deprecated consider using `Range Not Satisfiable` instead
-   */
+  /** @deprecated consider using `Range Not Satisfiable` instead */
   "Requested Range Not Satisfiable": 416,
-  /**
-   * @deprecated consider using `RANGE_NOT_SATISFIABLE` instead
-   */
+  /** @deprecated consider using `RANGE_NOT_SATISFIABLE` instead */
   REQUESTED_RANGE_NOT_SATISFIABLE: 416,
 
   417: 417,
@@ -271,13 +255,9 @@ export const StatusCodes = Object.freeze({
   507: 507,
   "Insufficient Storage": 507,
   INSUFFICIENT_STORAGE: 507,
-  /**
-   * @deprecated consider using `Insufficient Storage` instead
-   */
+  /** @deprecated consider using `Insufficient Storage` instead */
   "Insufficient Space on Resource": 507,
-  /**
-   * @deprecated consider using `INSUFFICIENT_STORAGE` instead
-   */
+  /** @deprecated consider using `INSUFFICIENT_STORAGE` instead */
   INSUFFICIENT_SPACE_ON_RESOURCE: 507,
 
   508: 508,
@@ -359,17 +339,11 @@ export const StatusCodes = Object.freeze({
   "Invalid SSL Certificate": 526,
   INVALID_SSL_CERTIFICATE: 526,
 
-  /**
-   * @deprecated Made obsolete by Cloudflare.
-   */
+  /** @deprecated Made obsolete by Cloudflare. */
   527: 527,
-  /**
-   * @deprecated Made obsolete by Cloudflare.
-   */
+  /** @deprecated Made obsolete by Cloudflare. */
   "Railgun Error": 527,
-  /**
-   * @deprecated Made obsolete by Cloudflare.
-   */
+  /** @deprecated Made obsolete by Cloudflare. */
   RAILGUN_ERROR: 527,
 
   // AWS Elastic Load Balancer

@@ -154,33 +154,21 @@ export const StatusTexts = Object.freeze({
   PAYLOAD_TOO_LARGE: "Payload Too Large",
   "Content Too Large": "Content Too Large",
   CONTENT_TOO_LARGE: "Content Too Large",
-  /**
-   * @deprecated consider using `Content Too Large` instead
-   */
+  /** @deprecated consider using `Content Too Large` instead */
   "Request Too Long": "Request Entity Too Large",
-  /**
-   * @deprecated consider using `CONTENT_TOO_LARGE` instead
-   */
+  /** @deprecated consider using `CONTENT_TOO_LARGE` instead */
   REQUEST_TOO_LONG: "Request Entity Too Large",
-  /**
-   * @deprecated consider using `CONTENT_TOO_LARGE` instead
-   */
+  /** @deprecated consider using `CONTENT_TOO_LARGE` instead */
   "Request Entity Too Large": "Request Entity Too Large",
-  /**
-   * @deprecated consider using `CONTENT_TOO_LARGE` instead
-   */
+  /** @deprecated consider using `CONTENT_TOO_LARGE` instead */
   REQUEST_ENTITY_TOO_LARGE: "Request Entity Too Large",
 
   414: "URI Too Long",
   "URI Too Long": "URI Too Long",
   URI_TOO_LONG: "URI Too Long",
-  /**
-   * @deprecated consider using `URI Too Long` instead
-   */
+  /** @deprecated consider using `URI Too Long` instead */
   "Request-URI Too Long": "Request-URI Too Long",
-  /**
-   * @deprecated consider using `URI_TOO_LONG` instead
-   */
+  /** @deprecated consider using `URI_TOO_LONG` instead */
   REQUEST_URI_TOO_LONG: "Request-URI Too Long",
 
   415: "Unsupported Media Type",
@@ -190,13 +178,9 @@ export const StatusTexts = Object.freeze({
   416: "Range Not Satisfiable",
   "Range Not Satisfiable": "Range Not Satisfiable",
   RANGE_NOT_SATISFIABLE: "Range Not Satisfiable",
-  /**
-   * @deprecated consider using `Range Not Satisfiable` instead
-   */
+  /** @deprecated consider using `Range Not Satisfiable` instead */
   "Requested Range Not Satisfiable": "Requested Range Not Satisfiable",
-  /**
-   * @deprecated consider using `RANGE_NOT_SATISFIABLE` instead
-   */
+  /** @deprecated consider using `RANGE_NOT_SATISFIABLE` instead */
   REQUESTED_RANGE_NOT_SATISFIABLE: "Requested Range Not Satisfiable",
 
   417: "Expectation Failed",
@@ -279,13 +263,9 @@ export const StatusTexts = Object.freeze({
   507: "Insufficient Storage",
   "Insufficient Storage": "Insufficient Storage",
   INSUFFICIENT_STORAGE: "Insufficient Storage",
-  /**
-   * @deprecated consider using `Insufficient Storage` instead
-   */
+  /** @deprecated consider using `Insufficient Storage` instead */
   "Insufficient Space on Resource": "Insufficient Space on Resource",
-  /**
-   * @deprecated consider using `INSUFFICIENT_STORAGE` instead
-   */
+  /** @deprecated consider using `INSUFFICIENT_STORAGE` instead */
   INSUFFICIENT_SPACE_ON_RESOURCE: "Insufficient Space on Resource",
 
   508: "Loop Detected",
@@ -368,17 +348,11 @@ export const StatusTexts = Object.freeze({
   "Invalid SSL Certificate": "Invalid SSL Certificate",
   INVALID_SSL_CERTIFICATE: "Invalid SSL Certificate",
 
-  /**
-   * @deprecated Made obsolete by Cloudflare.
-   */
+  /** @deprecated Made obsolete by Cloudflare. */
   527: "Railgun Error",
-  /**
-   * @deprecated Made obsolete by Cloudflare.
-   */
+  /** @deprecated Made obsolete by Cloudflare. */
   "Railgun Error": "Railgun Error",
-  /**
-   * @deprecated Made obsolete by Cloudflare.
-   */
+  /** @deprecated Made obsolete by Cloudflare. */
   RAILGUN_ERROR: "Railgun Error",
 
   // AWS Elastic Load Balancer
